@@ -1,0 +1,30 @@
+section {
+  padding: 5rem 0;
+}
+section .left-section {
+  width: 60%;
+}
+section .right-section {
+  align-self: flex-start;
+  width: 40%;
+}
+
+section .description {
+  padding: 2rem;
+  color: var(--small-text);
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  word-spacing: 2px;
+}
+section .left-section .intro {
+  align-items: center;
+}
+section .left-section .image-cont {
+  padding: 1px;
+  background-color: var(--big-text);
+  border-radius: 50%;
+}
+section .profile-image {
+  height: 20rem;
+}
